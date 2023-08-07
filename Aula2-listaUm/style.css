@@ -1,0 +1,11 @@
+td:hover {
+    transition: all 1s;
+    background-color: #000080;
+    color: white;
+}
+
+th:hover {
+    transition: all 1s;
+    background-color: white;
+    color: #000080;
+}
