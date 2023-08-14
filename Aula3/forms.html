@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    fieldset {
+        font-family: Arial, sans-serif;
+        border-radius: 10px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>FORMS</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Name: </label> <br>
+            <input id="name" type="text" name="fname" required minlength="4" maxlength="10" size="10" />
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="text" name="txtEmail" id="email" size="10">
+            <br>
+            <input type="submit" />
+            <br>
+            <label for="avatar"> Escolha uma imagem: </label> </label>
+            <br>
+            <input type="hidden" id="avatar" name="avatar" accept="image/jpeg, image/png" />
+            <br>
+            <input type="image" id="image" alt="login"
+            src="imgs/Koala.jpg" 
+            height="150px"
+            width="200px"/> 
+            <br>
+            <input type="reset" value="Save">
+            <br>
+            <p>Audio settings</p>
+
+            <div>
+                <input type="range" id="volume" name="volume"
+                min="0" max="11"/>
+                <label for="volume"> Volume: </label>
+            </div>
+            
+            <div>
+                <input type="range" id="Cowbell" name="Cowbell"
+                min="0" max="100"/>
+                <label for="Cowbell"> Cowbell: </label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Datas</legend>
+            <br>
+            <label for="date"> Data: </label>
+            <br>
+            <input type="date">
+        </fieldset>
+    </form>
+</body>
+
+</html>
