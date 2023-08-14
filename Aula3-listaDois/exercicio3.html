@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        fieldset{
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <script>
+        function exibirMensagem(){
+            alert('Vai aumossar!')
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Diferença entre Buttons</h1>
+    <hr>
+    <ol type="I">
+        <li> <b> Type="submit": </b> Faz o submit de um form em que esse botão estiver inserido.</li>
+        <li> <b> Type="button": </b> Não possue nenhuma ação pré definida, depende de alguma função ou código que o javaScript possa ter pra ele.</li>
+    </ol>
+    <hr>
+    <p> <b> Exemplos: </b></p>
+
+    <form acction="" method="post">
+        <fieldset>
+            <legend><b>Exemplo 1</b></legend>
+            <label for="text"> Informe algo:</label> <br>
+            <input id="text" type="text" size="15"><br> 
+            <label for="submit"> Exemplo de button submit: </label> <br>
+            <input id="submit" type="submit" size="10" value="Enviar">
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Exemplo 1</b></legend>
+            <label for="button"> Exemplo de input button: </label> <br>
+            <input id="button" type="button" size="10" value="clique aqui" onclick="exibirMensagem()">
+
+        </fieldset>
+    </form>
+    <hr>
+    <p> <sub> Fonte: StackOverFlow</sub></p>
+</body>
+</html>

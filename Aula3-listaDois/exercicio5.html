@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+    <h1> The map and area </h1>
+
+    <!-- Insere a imagem -->
+    <img src="imgs/workplace.jpg" alt="workplace" usemap="#workmap" width="400" height="379">
+    <!-- Onde inicia a definição do mapa da imagem, com nome workmap -->
+    <map name="workmap">
+        <!-- define uma área clicável na imagem com coordenadas x e y, que se clicada, o user vai ser direcionado para computer.htm, também possui uma dica de ferramenta definida como Computer-->
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+        <!-- define uma área clicável na imagem com coordenadas x e y, que se clicada, o user vai ser direcionado para phone.htm, também possui uma dica de ferramenta definida como Phone-->       
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
+        <!-- define uma área clicável na imagem com coordenadas x e y, que se clicada, o user vai ser direcionado para coffee.htm, também possui uma dica de ferramenta definida como Cup of coffee-->
+        <area shape="rect" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee_cup">
+    
+    </map>
+    <hr>
+    <p> O código basicamente cria uma page na web que exibe uma imagem com três áreas clicáveis diferente, 
+        as quais, cada uma apresenta um objeto diferente, e quando clicada redireciona o user a uma page relacionada a tal objeto clicado, 
+        criando assim uma experiência "interativa" ao user.
+    </p>
+
+
+</body>
+</html>
