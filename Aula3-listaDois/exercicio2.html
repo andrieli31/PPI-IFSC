@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        fieldset{
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <h1> Tipos de Campo Input</h1> 
+    <hr>
+    <form acction="" method="post">
+    <fieldset>
+        <legend> <b>Exemplos</b></legend>
+        <ol>
+        <p> <li> Campo de input <b>text</b> é usado para receber informações do tipo texto.</li></p>
+        <label for="name">Nome: </label>
+        <br>
+        <input id="name" type="text" name="fname" required minlength="4" maxlength="10" size="10" required />
+       <br>
+       <p><li>Campo de input <b>email</b> usado para coletar endereços de email dos usuários em um formulário, alguns navegadores formatam o email automaticamente</li></p>
+        <label for="email"> Email: </label>
+        <br>
+        <input id="email" type="email" email="femail" required minlength="4" maxlength="50" size="40" autocomplete="email">
+        <br>
+        <p> <li>Campo de input <b>senha</b> é usado para coletar a senha do usuário, onde o texto é inserido e automaticamente mascarado.</li> </p>
+        <label for="senha"> Senha: </label>
+        <br>
+        <input id="senha" type="password" senha="fsenha" required minlength="4" maxlength="20" size="15" autofocus>
+        <br>
+        <p> <li>Campo de input <b>number</b> é um tipo de campo numérico, onde o user pode inserir valores numéricos, podendo usar setas para cima e para baixo, para aumentar ou diminuir o valor inserido</li></p>
+        <label for="numero"> Número:  </label>
+        <br>
+        <input id="num" type="number" number="fnum"  size="5" step="2" min="0" max="1000">
+        <br>
+        <p><li>Campo de input <b>date</b> é um tipo de campo para entrada de data, permite os users selecionar uma data no calendário </li></p>
+        <label for="date"> Data: </label>
+        <br>
+        <input id="date" type="date" date="fdate" size="10">
+        <br>
+        <p> <li> Campo de input <b>checkbox</b> serve para criar uma caixa de seleção que os users podem marcar ou desmarcar</li></p>
+        <label for="checkbox"> Selecione qual o melhor: </label> </label>
+        <br>
+        <input id="checkbox1" type="checkbox"  size="10" >
+        <label for="checkbox1"> Café</label>
+        <input id="checkbox2" type="checkbox"  size="10" checked>
+        <label for="checkbox2"> Almoço</label>
+        <input id="checkbox3" type="checkbox"  size="10">
+        <label for="checkbox3"> Janta</label>
+            <br>
+        <p><li> Campo de input <b> radio</b> é um tipo de campo que cria botões de opções, que permitem ao user escolher uma única opção</li></p>
+        <label for="radio"> Selecione o único melhor: </label>
+        <br>
+        <input id="radio1" type="radio" size="10" disabled>
+        <label for="radio1"> Café</label>
+        <input id="radio2" type="radio" size="10">
+        <label for="radio2"> Almoço</label>
+        <input id="radio3" type="radio"   size="10">
+        <label for="radio3"> Janta</label>
+        <br>
+        <p><li>Campo de input <b>file</b> é um tipo de campo que permite realizar upload de arquivos que o user selecionar</li></p>
+        <label for="file"> Anexe um arquivo: </label>
+        <br>
+        <input id="file" type="file" size="10" name="arquivos[] " multiple>
+        <br>
+        <p> <li> Campo de input <b>submit</b> serve para criar um botão de envio que, ao clicado, envia os dados inseridos para o servidor</li></p>
+        <label for="submit"> Salvar: </label>
+        <br>
+        <input id="submit" type="submit" size="10"> 
+            <br>
+        <p> <li> Campo de input <b>button </b> serve para criar um botão interativo que pode ser usado com javaScript para executar ações </li></p>
+            <label for="button"> Clique no Botão: </label>
+            <input type="button" value="Clique-me" onclick="alert('Botão clicado!')">
+        <br>
+        <p> <li> Campo de input <b> hidden</b> serve para criar um campo oculto, que não é exibido para os users, mas sim para armazenar valores que serão enviados junto ao formulário</li></p>
+            <label for="hidden"> Tem um hidden escondido aqui: </label>
+            <input id="hidden" type="hidden" size="10"> 
+         <br>
+            <p><li> Campo de input <b> color </b> serve para criar um campo de seleção de cor que permite aos users escolherem uma cor</li></p>
+            <label for="color"> Escolha uma cor: </label>
+            <input id="color" type="color" size="10"> 
+            <br> 
+            <p> <li> Campo de input <b>range</b> serve para criar um controle deslizante que permite ao user selecionar um valor dentro de um intervale pré definido</li></p>
+            <label for="range"> Deslize o quanto quiser: </label>
+            <input id="range" type="range" size="40" min="10" max="1000"> 
+            <br>
+
+            <p> <li> Campo de input <b> Search </b> serve para criar um campo de pesquisa que pode ser estilizado de maneira específica e oferece recursos de pesquisa</li></p>
+            <label for="Search"> Pesquise algo:  </label>
+            <input id="Search" type="search" size="40">
+            <br>
+
+            <p> <li> Campo de input <b> image</b> serve para o user inserir um imagem no forms, podendo ser especificado o tipo de imagem</li></p>
+            <label for="image"> Insira uma imagem aqui: </label>
+            <br>
+            <input id="image" type="image" accept="image/jpeg, image/png"
+            src="imgs/felca.jpg"
+            height="250"
+            width="400"> 
+        </ol>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> <b>Atributos dos campos de Imput</b></legend>
+        <ol>
+            <li><b> Type:</b> especifica o tipo de entrada</li>
+            <li><b> Name: </b> define o nome da entrada, que é usado para identificar os dados</li>
+            <li><b> Id: </b>fornece um identificador único para a entrada</li>
+            <li><b> Value: </b> define um valor padrão para entrada </li>
+            <li><b> Placeholder: </b> insere um texto temporário dentro do campo</li>
+            <li><b> Required: </b>indica que o campo é obrigatório</li>
+            <li><b> Autofocus: </b> define foco automático para o campo quando a pag é carregada</li>
+            <li><b> Disabled:  </b> desativa o campo, tornando-o inacessível ao user</li>
+            <li><b> Readonly: </b> torna o campo somente leitura</li>
+            <li><b> Autocomplete: </b> controla a funcionalidade de preenchimento automatico para a entrada</li>
+            <li><b> maxlength: </b>limita o número máximo de caracteres que podem ser inseridos</li>
+            <li><b> minlength: </b>define o número mínimo de caracteres que podem ser inseridos</li>
+            <li><b> pattern: </b> especifica uma expressão regular que o valor inserido na entrada deva atender</li>
+            <li><b> size: </b> define o tamanho visual de cada entrada</li>
+            <li><b> step: </b>define o intervalo entre os valores válidos em campor númericos</li>
+            <li><b> accept: </b>especifica os tipos de arquivos aceitos para campos de upload de arquivos</li>
+            <li><b> multiple: </b>permite a seleção multipla de arquivos em campos de upload de arquivo</li>
+            <li><b> min e max: </b> definem os valories min e max permitidos para campos numéricos</li>
+            <li><b> checked: </b> marca um checkbox por padrão</li>
+            <li><b> arial-label: </b> fornece uma descrição acessível para a entrada para usuários de tecnologias assistivas</li>
+            
+
+        </ol>
+    </fieldset>
+</form>
+</body>
+</html>
