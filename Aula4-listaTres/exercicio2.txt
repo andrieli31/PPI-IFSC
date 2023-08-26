@@ -1,4 +1,8 @@
-(2) As regras de css podem ser definidas de várias formas, como: 
+(2) As regras de css podem ser definidas no cabeçalho da página, em um arquivo a parte .css, e as mesmas, dependendo do local, deverão 
+ser definidos em diferentes estruturas.
+
+
+ Além disso, as regras de css podem ser definidas de várias formas, como: 
 
 a. Usando seletores de elemento, usado para atribuir estilos a todos os parágrafos;
 
