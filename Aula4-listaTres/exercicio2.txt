@@ -1,0 +1,54 @@
+(2) As regras de css podem ser definidas de várias formas, como: 
+
+a. Usando seletores de elemento, usado para atribuir estilos a todos os parágrafos;
+
+    p {
+        /* Regras de estilo aqui */
+    }
+
+b. Usando seletores de classe, usado para atribuir estilos a elementos que possuem uma classe específica, o programador atribui a classe
+usando o atributo 'class';
+
+    .minha-classe {
+        /* Regras de estilo aqui */
+    }
+    <div class="minha-classe">Este elemento tem a classe 'minha-classe'.</div>
+
+
+c. Usando seletores de ID, usado para atribuir estilo a um elemento que possua um id específico, usando o atributo 'id';
+
+    #meu-id {
+        /* Regras de estilo aqui */
+    }
+ 
+    <div id="meu-id">Este elemento tem o ID 'meu-id'.</div>
+
+
+d. Usando seletores Universais, usado para aplicar regras a todos os elementos, atribuido através do '*';
+
+    * {
+        /* Regras de estilo aqui */
+    }
+
+e. Usando seletores de atributos, usado para definir elementos que possuam um atributo específico,
+como selecionar links com o atributo 'href' ;
+
+    a[href] {
+        /* Regras de estilo aqui */
+    }
+
+f. Usando seletores de descendência, pode ser usado para aplicar regras a elementos que sejam descendentes de outro;
+
+    ul li {
+        /* Regras de estilo aqui */
+    }
+
+g. Usando seletores de Pseudo-classe, usados para aplicar estilos a estados específicos dos elementos, como por exemplo, ':hover';
+
+    a:hover {
+        /* Regras de estilo aqui */
+    }
+
+Mas existem ainda mais formas, como combinar seletores para criar regras mais específicas. 
+
+

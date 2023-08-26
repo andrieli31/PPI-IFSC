@@ -1,0 +1,38 @@
+
+       (1)  Uma regra CSS nada mais é do que uma declaração, que segue uma certa sintaxe 
+            própria e define como o estilo será aplicado a um ou mias elementes do html.
+         Existem várias propriedades no CSS, como:
+         Propriedades do texto (font-family, font-size, font-weight, etc.);
+         Propriedades de Layout (wigth, height, margin, etc.);
+         Propriedades de Cores de Fundo (background-color, background-image, color);
+         Propriedades de Espaçemento e Alinhamento (margin, padding, text-align, vertical-align );
+         Propriedades de Lista e Marcadores (list-style-type, list-style-image, list-style-position);
+         Propriedades de Animação e Transição (animation, transition);
+         Propriedades de Flexbox e Grid (display: flex, display: grid);
+         Propriedades de Responsividade (media-queries);
+          Além disso, existem muitas outras propriedades que podem controlar vários aspectos de estilo e layout.
+
+         Sintaxe de um arquivo CSS: 
+        .seletor {
+             propriedade: valor; 
+             } 
+        No qual, o  seletor é usado para escolher quais elementos HTML as regras 
+        de estilo serão aplicadas. 
+         A propriedade é a propriedade css que o programador deseja definir para os elementos
+        selecionados. 
+         O valor é associado a propriedade, por exemplo, na propriedade color o valor pode ser uma 
+        cor em valor RGB, nome da cor, etc. 
+       O bloco de declaração {}  é onde o conjunto de propriedades e valores serão colocados. 
+ 
+        Incorporação do CSS ao documento HTML
+        Criar um arquivo .css
+         Defina as regras de estilo, exemplo:
+          .h1  { 
+            color: blue
+             font-size: 20px  
+             } 
+         Estrutura de pastas: organize seus arquivos e crie uma estrutura de pastas se necessario, exemplo, cria uma pasta css e armazena seus arquivos css ali
+         Incorportat o css no html, exemplo:  no elemente head, inserir a tag link com o atributo  href  apontando o caminho CSS. Exemplo: 
+            <p>Este é um parágrafo com estilo.</p>
+            <div class="h1"> Esta e uma frase com estilo.</div>
+        
