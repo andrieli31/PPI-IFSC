@@ -1,0 +1,40 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.box{
+    min-width: 60px;
+    border: 1px solid gray;
+}
+.box ::before{
+    content: "BOX";
+}
+#box-1{
+    max-width: 100px;
+    flex-grow: 1;
+}
+#box-2{
+    flex-grow: 4;
+    
+    max-width: 100px;
+}
+.BOX::before{
+    content: "andri babaca";
+    border-radius: 30px;
+    padding: 54px;
+}
+#cx1{
+    border-radius: 40px;
+    padding: 1%;
+    outline: auto blue;
+}
+#cx2{
+    border-color: chocolate;
+    padding: 3%;
+    outline: 34px crimson;
+}
