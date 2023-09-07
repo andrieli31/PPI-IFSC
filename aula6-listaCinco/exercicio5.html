@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 5</title>
+    <style>
+        body{
+            margin: 80px;
+            overflow: hidden;
+        }
+        .foguete{
+            width: 100px;
+            height: 150px;
+            background-color: deeppink;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: foguinho 3s linear infinite;
+
+        }
+
+        @keyframes foguinho {
+            0%{
+                transform: translateX(-50%) translateY(0);
+            }
+            100%{
+                transform: translateX(-50%) translateY(-100vh);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="foguete"> ihul</div>
+</body>
+</html>
