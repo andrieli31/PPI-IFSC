@@ -1,5 +1,7 @@
 .bandeira {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 600px;
     border: 1px solid black;
@@ -25,5 +27,14 @@
     width: 150px;
     height: 150px;
     background-color: #002776;
+    border-radius: 50%;
+}
+
+.bola {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 0, 45);
     border-radius: 50%;
 }
