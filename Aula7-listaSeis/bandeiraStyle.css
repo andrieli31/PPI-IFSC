@@ -1,0 +1,29 @@
+.bandeira {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.br {
+    background-color: #009c3b;
+    justify-content: center;
+    align-items: center;
+}
+
+.losangulo {
+    width: 200px;
+    height: 200px;
+    background: #ffdf00;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.7, 1) rotate(-45deg);
+}
+
+.circulo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #002776;
+    border-radius: 50%;
+}

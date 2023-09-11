@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    min-height: 90vh;
+    grid-template-areas:
+     "header  header header"  
+     "main . sidebar"
+     "footer footer  footer";
+     grid-template-rows: 2fr 5fr 1fr;
+     grid-template-columns: 2fr 1fr 1fr;
+}
+.box{
+    outline: 1px solid;
+    text-align: center;
+    border-radius: 5%;
+}
+#box-1{
+    grid-area: header;
+    background-color: orange;
+}
+#box-2{
+    grid-area: main;
+    background-color: blue;
+}
+#box-3{
+    grid-area: sidebar;
+    background-color: red;
+}
+#box-4{
+    grid-area: footer;
+    background-color: green;
+}
