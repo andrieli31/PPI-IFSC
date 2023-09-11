@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    overflow: hidden;
+}
+.box{
+    /* p destribuir igualemnte */
+    flex: 1; 
+    background-size: cover;
+    background-position: center;
+    transition: flex 0.3s;
+    
+}
+#box1{
+    background-image: url('imgs/foto1.jpg');
+}
+#box2{
+    background-image: url('imgs/foto2.jpg');
+}
+#box3{
+    background-image: url('imgs/foto3.jpg');
+}
+#box4{
+    background-image: url('imgs/foto4.jpg');
+}
+#box5{
+    background-image: url('imgs/foto5.jpg');
+}
+/* 
+aumentar quando passa o mouse por cima */
+.box:hover{
+    flex: 5;
+}

@@ -1,0 +1,32 @@
+
+.container {
+    display: grid;
+    grid-template-columns:  90px 1fr 2fr 3fr 4fr; /* Duas colunas: 200px para a barra lateral e o restante para o conteúdo */
+    grid-template-areas:
+        "header header header header header"
+        "sidebar  .  . content .   "; /* Áreas nomeadas para os elementos */
+    grid-gap: 10px; /* Espaço entre as células do grid */
+    height: 100vh; /* Altura da janela de visualização */
+}
+
+.header {
+    grid-area: header; /* Coloca o cabeçalho na área nomeada "header" */
+    background-color: #ff007f;
+    width: 30vh;
+    color: #fff;
+    padding: 5px;
+}
+
+.sidebar {
+    grid-area: sidebar; /* Coloca a barra lateral na área nomeada "sidebar" */
+    background-color: orangered;
+    padding: 10px;
+    width: 30vh;
+}
+
+.content {
+    grid-area: content; /* Coloca o conteúdo na área nomeada "content" */
+    background-color: #ecf0f1;
+    padding: 30px;
+    width: 10vh;
+}

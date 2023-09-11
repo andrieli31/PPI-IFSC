@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.box{
+    display: flex;
+    border: 1px solid #ccc;
+   
+}
+#box1{
+    outline: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 95vh;
+    height: 200px;
+}
+
+#box3{
+    outline: 1px solid;
+    padding: 10px;
+    margin: 0 auto;
+    width: 70vh;
+}

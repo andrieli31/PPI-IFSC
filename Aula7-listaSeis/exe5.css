@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Três colunas, a primeira e a terceira com tamanho igual e a segunda ocupando mais espaço */
+    grid-template-areas:
+        "sidebar content menu"
+        "sidebar content menu"; /* Duas linhas com a mesma estrutura */
+    grid-gap: 20px; /* Espaço entre as células do grid */
+    height: 100vh;
+}
+
+.header, .footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #f1c40f;
+    padding: 10px;
+}
+
+.content {
+    background-color: #ecf0f1;
+    padding: 20px;
+}
+
+.menu {
+    background-color: #2ecc71;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores (por exemplo, dispositivos móveis) */
+    .container {
+        grid-template-columns: 1fr; /* Apenas uma coluna para telas menores */
+        grid-template-areas:
+            "content"
+            "sidebar"
+            "menu";
+    }
+}
