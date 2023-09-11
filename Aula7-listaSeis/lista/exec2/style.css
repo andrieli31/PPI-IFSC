@@ -1,0 +1,60 @@
+
+.bandeira {
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.jp {
+    justify-content: center;
+    align-items: center;
+}
+
+.bola {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(188, 0, 45);
+    border-radius: 50%;
+}
+
+#faixa-verde {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color:#009246;
+}
+
+#faixa-branca {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color:   #F1F2F1;
+}
+
+#faixa-vermelha {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color:#CE2B37;
+}
+
+.holanda {
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.stripe {
+    flex: 1;
+}
+
+.red-stripe {
+    background-color: #21468B; 
+}
+
+.white-stripe {
+    background-color: white;
+}
+
+.blue-stripe {
+    background-color: #AE1C28; /* Azul */
+}
