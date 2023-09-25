@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .exemplo{
+            width: 200px;
+            height: 50px;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: aqua;
+        }
+        .ex-absolute{
+            position: absolute;
+            background-color: blue;
+            left: 100px;
+            top: 50px;
+            
+        }
+        .ex-relative{
+            position: relative;
+            background-color: chartreuse;
+            left: 50px;
+        }
+        .ex-estatic{
+            position: static;
+            background-color: cornflowerblue;
+            
+        }
+        .ex-fixo{
+            position: fixed;
+            background-color: darkslategray;
+            bottom: 20px;
+            right: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="exemplo"> ex</div>
+    <div class="ex-absolute"> absoluto </div>
+    <div class="ex-relative"> relativo</div>
+    <div class="ex-fixo"> fixo </div>
+    <div class="ex-estatic"> estatico</div>
+
+
+<!-- position: static: Este é o valor padrão. O elemento é posicionado conforme o fluxo normal do documento.
+
+position: relative: O elemento é posicionado em relação à sua posição normal, deslocado de acordo com as propriedades top, right, bottom e left.
+
+position: absolute: O elemento é posicionado em relação ao elemento pai mais próximo que tenha uma posição diferente de static. Se nenhum ancestral tiver uma posição diferente de static, ele é posicionado em relação ao <html>.
+
+position: fixed: O elemento é posicionado em relação à viewport (a área visível na tela), então ele permanece fixo mesmo se a página for rolada. -->
+
+</body>
+</html>

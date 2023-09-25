@@ -1,0 +1,65 @@
+(11)
+
+1. plate: seleciona todos os elementos <plate>.
+
+2. bento: seleciona todos os elementos <bento>.
+
+3. #fancy: seleciona os pratos a partir de seu id.
+
+4. plate apple: referencia o <plate> em que a <apple> está dentro.
+
+5. #fancy pickle: seleciona o <pickle> a partir do id do <plate> em que está dentro.
+
+6. *.small: utiliza o seletor universal (*) para selecionar todas as <apple> da class .small
+
+7. orange.small: seleciona todas as <orange> da class .small
+
+8. bento orange.small: seleciona todas as <orange> da class .small  dentro de um <bento>
+
+9. plate, bento: seleciona todos os <plate> E <bento>
+
+10. *: seleciona todos os elementos
+
+11. plate *: seleciona tudo dentro dos <plate>
+
+12. plate + apple: seleciona todas as <apple> que em encontro direto com um <plate>
+
+13. bento ~ pickle: seleciona todos os <pickle> que seguem um <plate>
+
+14. plate > apple: seleciona a <apple> diretamente ligada ao <plate>
+
+15. orange:first-child: seleciona o primeiro child element <orange>, o que está ligado a outros
+
+16. plate *:only-child: seleciona todos os elementos que únicos em um <plate>
+
+17. .small:last-child: seleciona todos os elementos da classe .small dentro de outros elementos.
+
+18. plate:nth-child(3): seleciona o terceiro <plate> filho de outro elemento.
+
+19. bento:nth-child(2): seleciona o primeiro <bento> filho de outro elemento de trás pra frente.
+
+20. apple:first-of-type: seleciona o pirmeiro elemento do tipo <apple>
+
+21. plate:nth-of-type(even): seleciona todos os elementos de tipo <plate> e pares na sequuência de elementos.
+
+22. plate:nth-of-type(2n+3): seleciona todos os segundos elementos <plate> iniciando pelo terceiro elemento da sequência.
+
+23. plate apple:only-of-type: seleciona todo único elemento <apple> dentro de um <plate>
+
+24. *.small:last-of-type: seleciona todos os últimos elemetnos da classe .small na sequência.
+
+25. bento:empty: seleciona todos os <bento> que não possuem nenhum elemento dentro de si.
+
+26. apple:not(.small): seleciona todas as <apple> que não pertencem a classe.small
+
+27. [for]: seleciona todos os elementos que possuem um for=""
+
+28. plate[for]: seleciona todos os <plate> que possuem um for=""
+
+29. [for="Vitaly"]: seleciona todos os elementos que possuem um for="Vitaly"
+
+30. [for^="Sa"]: seleciona todos os itens que possuem um for="" com atributos que começam com "Sa".
+
+31. [for$="ato"]: seleciona todos os itens que possuem um for="" com atributos que terminam com "ato".
+
+32. [for*="obb"]: seleciona todos os itens que possuem um for="" com atributos que contém "obb".

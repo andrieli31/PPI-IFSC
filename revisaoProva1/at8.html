@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* elemento com display: block ocupa toda a largura disponível 
+         e força elementos subsequentes para a próxima linha. */
+        .exemplo-block{
+            display: block;
+            background-color: aquamarine;
+            width: 100%;
+            margin-bottom: 10px;
+            /* O elemento com display: inline ocupa apenas o espaço 
+            necessário, sem forçar uma nova linha. */
+        }
+        .exemplo-inline{
+            display: inline;
+            background-color: aqua;
+            margin-right: 10px;
+        }
+        /* O elemento com display: inline-block se comporta como um 
+        elemento inline, mas permite propriedades de bloco como largura 
+        e altura. */
+        .exemplo-inline-block{
+            display: inline-block;
+            background-color: blue;
+            margin-right: 10px;
+            width: 200px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="exemplo-block"> conteudo um  </div>
+    <div class="exemplo-inline"> conteudo dois</div>
+    <div class="exemplo-inline-block"> conteudo tres </div>
+</body>
+</html>

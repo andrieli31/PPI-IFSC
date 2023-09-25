@@ -1,0 +1,33 @@
+
+
+    1. Arquitetura cliente-servidor: modelo de comunicações onde o cliente 
+    faz um pedido para um servidor, o qual vai processar o pedido e retornar um 
+    resultado para o cliente;
+        R: inspecionar // rede - netWork
+
+    2. Explique a o que é os temos por meio de uma representação de grafica 
+    com nós e arestas e que representa a intenet como rede de computadores
+    e(nos)  e web com rede de documentos(nos) inteligados. 
+        R: internet é uma infraestrutura fisica que liga dispositivos de computação
+        de todo o mundo;
+            web é um serviço que opera na internet, é o que os nevegadores utilizam 
+            para acessar páginas
+
+        [Computador 1] ---- [Computador 2]
+          |                  |
+          |                  |
+    [Computador 3] ---- [Servidor 1]
+    
+    [Computador 1] ---- [Computador 2]
+          |                  |
+          |                  |
+    [Computador 3] ---- [Servidor 1]
+              \
+               \
+              [Documento A]
+                  |
+                  |
+              [Documento B]
+                  |
+                  |
+              [Documento C]

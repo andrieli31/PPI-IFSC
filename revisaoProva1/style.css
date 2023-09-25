@@ -1,0 +1,23 @@
+/* Estilo para a lista */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para os itens da lista */
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilo para os links da lista */
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilo para o hover dos links */
+.menu li a:hover {
+    color: blue;
+}

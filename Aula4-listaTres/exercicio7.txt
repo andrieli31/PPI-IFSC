@@ -1,0 +1,8 @@
+(7) foram usados os seletores: 
+    
+    1. flex: distribui o espaço disponível igualmente entre os elementos;
+    2. display: flex - especifica que o elemento 'pai' (diva) está usando um modelo de layout flexível;
+    3. align-itens: center - alinha os elementos 'filhos' verticalmente no centro do eixo transversal principal.
+    4. justify-content: center - centraliza horizontalmente os elementos filhos dentro da 'diva' ao longo do eixo principal.
+    5. height: define a altura do elemento;
+    6. text-align: centraliza o texto dentro do elemento, caso o conteúdo seja texto.

@@ -1,0 +1,9 @@
+(4)  Uma regra css sempre é assossiado a um elemento html através de seletores, que irão definir os elementos 
+que a regra deverá então ser aplicada. exemplo:
+
+.exemplo{
+    color: red;
+}
+
+o seletor 'exemplo' quando chamado no arquivo html, define que todos elementos 'exemplo' terão 
+a cor red, que é o que está definido. 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calc {
+            display: grid;
+            grid-gap: 15px;
+            max-width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 8px 8px 20px black;
+            border-radius: 5%;
+        }
+
+        .calc input {
+            grid-column: span 4;
+            padding: 10px;
+            font-size: 20px;
+            text-align: right;
+        }
+
+        .calc button {
+            padding: 10px;
+            font-size: 18px;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .calc button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="calc">
+        <input type="text" readonly>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>  
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>+</button>
+    </div>
+</body>
+</html>

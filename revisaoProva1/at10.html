@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around; /*distribui os itens igualmente*/
+            align-items:flex-start;/*alinha os itens verticalmente*/
+            height: 50vh;
+            width: 100%;
+            background-color: lightblue;
+            margin: 20px;
+        }
+        .box{
+            padding: 20px;
+            background-color: aqua;
+        }
+
+        .container-column{
+            display: flex;
+            flex-direction: column; /*deixa em coluna*/
+            justify-content: space-evenly; /*distribui uniforme*/
+            align-items: center;
+            height: 400px;
+            margin: 50px;
+
+        }
+        .container-ordem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: lightblue;
+        }
+
+        .item1 {
+            order: 3; /* Altera a ordem de exibição */
+        }
+
+    .item2 {
+        order: 1;
+    }
+
+    .item3 {
+         order: 2;
+    }
+
+    .item {
+        padding: 20px;
+         background-color: lightgreen;
+        margin: 10px;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">1 </div>
+    <div class="box">2 </div>
+    <div class="box">3 </div>
+</div>
+    <div class="container-column">
+        <div class="box">1 </div>
+        <div class="box">2 </div>
+        <div class="box">3 </div>
+
+</div>
+<div class="container-order">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+</div>
+
+</body>
+</html>

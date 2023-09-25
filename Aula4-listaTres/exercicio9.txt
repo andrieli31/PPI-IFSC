@@ -1,0 +1,9 @@
+(9)
+
+    1. display: determina como os elementos ocupam espaço na página.
+
+    2.display-inline: elementos que ficam na mesma linha.
+
+    3.display-block: elementos que ficam no incio da uma nova linha.
+
+    4.display: inline-block: combina as duas coisas.
